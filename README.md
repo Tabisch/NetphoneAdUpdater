@@ -13,5 +13,5 @@ Stuff i think is missing:<br/>
 -Multi-Language for notifications (They are currently in german)<br/>
 -Make AdminProfileManagment available via AD like current Group Managment (Set-AdNetphonePermissionGroups.ps1 is currently not used and disabled via return at start)<br/>
 
-Stuff i probably wont do (If somebody else feels up to the task, hit me up on discord):<br/>
--Make number formating customizable (bcs no, i wont go into that hell hole again)<br/>
+Stuff i probably wont change (If somebody else feels up to the task, hit me up on discord):<br/>
+-Make number formating more customizable (number formating always takes 5 values, bcs of data fetches)<br/>
