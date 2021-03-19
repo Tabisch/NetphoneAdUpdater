@@ -11,6 +11,7 @@ Features:<br/>
 -User enable and disable (based on ad account state and group membership)<br/>
 -Writing back formatted phone numbers back to ad.<br/>
 -Group Managment (Usermembership and group creation (only AD->NetphoneServer))<br/>
+-Creating Contacts for Mobilephone numbers<br/>
 
 Stuff i think is missing or should be changed:<br/>
 -Multi-Language for notifications (They are currently in german)<br/>
