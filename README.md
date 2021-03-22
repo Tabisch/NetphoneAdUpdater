@@ -3,8 +3,7 @@ There are some things that still have to be done by hand, but it should take car
 Its written for Netphone 12.31, bcs thats currently running where i work.<br/>
 Should work for all Swyx Servers, because Netphone should only be a rebranded Swyx.<br/>
 For transparncy i want to tell you, that i only tested it on the NetphoneServer we got from TeleCom.<br/>
-The whole module is documented as well as i knew how to do it.<br/>
-There is probably some butchered english, but it should get the message across.<br/>
+The whole module is documented as well as i knew how to do it. (Im a sysadmin not a professional dev)<br/>
 
 Features:<br/>
 -User creation (Name, Internal number, public number, email, location)<br/>
@@ -21,6 +20,8 @@ I dont have a list where they currently are.<br/>
 -Make AdminProfileManagment available via AD like current Group Managment (Set-AdNetphonePermissionGroups.ps1 is currently not used and disabled via return at start)<br/>
 -Set-NetphoneUserFaxForwarding performace could be optimised, but it will do for now<br/>
 -Function names should be changed (Powershell is saying that some functions use non standard verbs. Its true, but it works for now)<br/>
+Some function names are "optimizable", but i couldnt think of anything better yet.<br/>
+-Change the folders functions are stored in (the folder doesnt matter, they work from anywhere as long they are somewhere under public or private)<br/>
 -Force object types (get-help says what you need and the script uses the right ones everywhere, so it shouldnt be a problem)<br/>
 
 Stuff i probably wont change (If somebody else feels up to the task, hit me up on discord):<br/>
@@ -46,5 +47,6 @@ How to setup:<br/>
 -Add your Users to the appropriatte groups.<br/>
 -cd to the root of the module and run AutoSync.ps1.<br/>
 
+P.S.
 If anyone has some ideas how to improve the development, please tell me.<br/>
 I really love the stuff i do here, but god do i hate working with build-in powershell ise.<br/>
