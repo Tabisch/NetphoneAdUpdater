@@ -23,6 +23,7 @@ I dont have a list where they currently are.<br/>
 Some function names are "optimizable", but i couldnt think of anything better yet.<br/>
 -Change the folders functions are stored in (the folder doesnt matter, they work from anywhere as long they are somewhere under public or private)<br/>
 -Force object types (get-help says what you need and the script uses the right ones everywhere, so it shouldnt be a problem)<br/>
+-Add a tool for setting up TrunkRanges<br/>
 
 Stuff i probably wont change (If somebody else feels up to the task, hit me up on discord):<br/>
 -Make number formating more customizable (number formating always takes 5 values, bcs of data fetches)<br/>
