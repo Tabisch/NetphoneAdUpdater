@@ -42,6 +42,7 @@ Prerequisites:<br/>
 How to setup:<br/>
 -Copy the module onto the Netphone/Swyx Server<br/>
 -Configure "Set-Variables.ps1"<br/>
+-Fill TrunkNumberRanges field (Get-IpPbxTrunkNumberRange, fill CountryCode, AreaCode, Subscriber, ExtStart and ExtEnd, than execute .ApplyData())
 -Setup the CallDistributionGroups,Group for Users without CallDistributionGroups, Group for whom to disable telephonenumber and Group for users for which to create contact with their mobile number.<br/>
 -Add Active Directory Accounts to all NetphoneUsers (except SystemAccounts), otherwise they will be disabled.<br/>
 -Add your Users to the appropriatte groups.<br/>
