@@ -31,7 +31,7 @@ New-Variable -Name AdminProfileSearchBase -Value "OU=,OU=,OU=,DC=,DC=" -Scope gl
 
 New-Variable -Name DefaultLocationID -Value 1 -Scope global
 #The provided Pattern always has to take 5 vaules (pattern is used in function Get-FormatedNumberForAdUser)
-New-Variable -Name NumberFormatingPattern -Value "{0}{1} ({2}) {3} {4}" -Scope global
+New-Variable -Name NumberFormatingPattern -Value "{0}{1} {2} {3} {4}" -Scope global
 #lowest posible number to assign automaticlly
 New-Variable -Name FirstAvaiableInternalNumber -Value 200 -Scope global
 
